@@ -1,0 +1,5380 @@
+.mediaViewInfo {
+    --web-view-name: Konto Übersicht;
+    --web-view-id: Konto_bersicht;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Konto_bersicht;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Konto_bersicht {
+    position: absolute;
+    width: 1920px;
+    height: 5291px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Konto Übersicht;
+    --web-view-id: Konto_bersicht;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#nach_Kosten_sortieren {
+    left: 1059px;
+    top: 931px;
+    position: absolute;
+    overflow: visible;
+    width: 167px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#nach_bot-Bewertung_sortieren {
+    left: 1382px;
+    top: 931px;
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    height: 20px;
+    text-align: right;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#Pfad_936 {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_936 {
+    overflow: visible;
+    position: absolute;
+    width: 17.138px;
+    height: 11.243px;
+    left: 975px;
+    top: 936.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_937 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_937 {
+    overflow: visible;
+    position: absolute;
+    width: 14.946px;
+    height: 8px;
+    transform: matrix(1,0,0,1,999,936.5) rotate(180deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Pfad_938 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_938 {
+    overflow: visible;
+    position: absolute;
+    width: 17.138px;
+    height: 11.243px;
+    left: 1355px;
+    top: 936.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_939 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_939 {
+    overflow: visible;
+    position: absolute;
+    width: 14.946px;
+    height: 8px;
+    transform: matrix(1,0,0,1,1379,936.5) rotate(180deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Gruppe_292 {
+    position: absolute;
+    width: 635px;
+    height: 276px;
+    left: 967px;
+    top: 982px;
+    overflow: visible;
+}
+#Gruppe_248 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 421.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_we {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 454.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_wf {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 487.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_wg {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 520.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_wh {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 553.946px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00_ {
+    left: 8px;
+    top: 193.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#bank-austria-ag-vector-logo-40 {
+    position: absolute;
+    width: 326px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bank_Austria__Go_Green_Konto_ {
+    left: 8px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_7122021 {
+    left: 8px;
+    top: 229px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6 {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 8px;
+    top: 130px;
+    overflow: hidden;
+}
+#Group_wn {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943 {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_wq {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_wr {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_wr {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_wt {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 500px;
+    top: 203px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_wu {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_wu {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_40_ww {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_ww {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 8px;
+    top: 276px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_44 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44 {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 594px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251 {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 606px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250 {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249 {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_40_w {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_w {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 975px;
+    top: 2839px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_330 {
+    position: absolute;
+    width: 635px;
+    height: 321px;
+    left: 967px;
+    top: 2869px;
+    overflow: visible;
+}
+#Gruppe_248_w {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 421.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xa {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 454.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xb {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 487.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xc {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 520.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xd {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 553.945px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__w {
+    left: 8px;
+    top: 265.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#umweltcenter-raiffeisenbank-gu {
+    position: absolute;
+    width: 326px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Umweltcenter_Gunskirchen__Umwe {
+    left: 8px;
+    top: 111px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 80px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_5122021 {
+    left: 8px;
+    top: 301px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6_xc {
+    position: absolute;
+    width: 466.946px;
+    height: 54.052px;
+    left: 8px;
+    top: 202px;
+    overflow: hidden;
+}
+#Group_xd {
+    position: absolute;
+    width: 462px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_xe {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_xe {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_xf {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 434px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_xg {
+    position: absolute;
+    width: 462px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_xh {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_xh {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Kontowechselservice_kostenpfli {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 434px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_xj {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 500px;
+    top: 275px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+}
+#Rechteck_7_xk {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_xk {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_xl {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_44_xm {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44_xm {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 594px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251_xn {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 606px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250_xo {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_xp {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_40_xq {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_xq {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 975px;
+    top: 1872px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_329 {
+    position: absolute;
+    width: 627px;
+    height: 249px;
+    left: 975px;
+    top: 1596px;
+    overflow: visible;
+}
+#Gruppe_248_xs {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 413.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xt {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 446.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xu {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 479.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xv {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 512.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_xw {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 545.945px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__xx {
+    left: 0px;
+    top: 193.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#index {
+    position: absolute;
+    width: 326px;
+    height: 64px;
+    left: 2px;
+    top: 0px;
+    overflow: visible;
+}
+#HYPO_NOE__Konto_grn {
+    left: 0px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_7122021_x {
+    left: 0px;
+    top: 229px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6_x {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 0px;
+    top: 130px;
+    overflow: hidden;
+}
+#Group_x {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_x {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_x {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_x {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_ya {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_ya {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_ya {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic_x {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_x {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 492px;
+    top: 203px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_x {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_x {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_ya {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_44_yb {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44_yb {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 586px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251_yc {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 598px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250_yd {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_ye {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_40_yf {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_yf {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 975px;
+    top: 2179px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_328 {
+    position: absolute;
+    width: 627px;
+    height: 249px;
+    left: 975px;
+    top: 1903px;
+    overflow: visible;
+}
+#Gruppe_248_yh {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 413.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_yi {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 446.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_yj {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 479.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_yk {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 512.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_yl {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 545.945px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__ym {
+    left: 0px;
+    top: 193.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#index_yn {
+    position: absolute;
+    width: 326px;
+    height: 64px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+}
+#HYPO_NOE__Powerkonto_grn {
+    left: 0px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_7122021_yp {
+    left: 0px;
+    top: 229px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6_yq {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 0px;
+    top: 130px;
+    overflow: hidden;
+}
+#Group_yr {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_ys {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_ys {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_yt {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_yu {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_yv {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_yv {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic_yw {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_yx {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 492px;
+    top: 203px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_yy {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_yy {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_yz {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_44_y {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44_y {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 586px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251_y {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 598px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250_y {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_y {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_40_y {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_y {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 975px;
+    top: 2509px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_327 {
+    position: absolute;
+    width: 635px;
+    height: 270px;
+    left: 967px;
+    top: 2210px;
+    overflow: visible;
+}
+#Gruppe_248_y {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 421.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_za {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 454.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_zb {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 487.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_zc {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 520.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_zd {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 553.945px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__zb {
+    left: 8px;
+    top: 214.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Oberbank_Logo {
+    position: absolute;
+    width: 326px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Oberbank__bee_green_Konto {
+    left: 8px;
+    top: 100px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_7122021_ze {
+    left: 8px;
+    top: 250px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6_zf {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 8px;
+    top: 151px;
+    overflow: hidden;
+}
+#Group_zg {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_zh {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_zh {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_zi {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_zj {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_zk {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_zk {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic_zl {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_zm {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 500px;
+    top: 224px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_zn {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_zn {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_zo {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_44_zp {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44_zp {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 594px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251_zq {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 606px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250_zr {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_zs {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_332 {
+    position: absolute;
+    width: 635px;
+    height: 270px;
+    left: 967px;
+    top: 2540px;
+    overflow: visible;
+}
+#Gruppe_326 {
+    position: absolute;
+    width: 635px;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Stand_7122021_zv {
+    left: 8px;
+    top: 250px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Gruppe_325 {
+    position: absolute;
+    width: 635px;
+    height: 264px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_299 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 421.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_300 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 454.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_301 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 487.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_302 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 520.945px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_303 {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 553.945px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__z {
+    left: 8px;
+    top: 214.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Oberbank_Logo_z {
+    position: absolute;
+    width: 326px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Oberbank__bee_green_Konto_z {
+    left: 8px;
+    top: 100px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Wiederholungsraster_10 {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 8px;
+    top: 151px;
+    overflow: hidden;
+}
+#Group_z {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_z {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_z {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_z {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_a {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_a {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_a {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic_b {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_d {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 500px;
+    top: 224px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_d {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_d {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_e {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_65 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_65 {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 594px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_304 {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 606px;
+    top: 9.5px;
+    overflow: visible;
+}
+#Gruppe_250_h {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_i {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_331 {
+    position: absolute;
+    width: 635px;
+    height: 276px;
+    left: 967px;
+    top: 1289px;
+    overflow: visible;
+}
+#Gruppe_248_k {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 421.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_l {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 454.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_m {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 487.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_n {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 520.946px;
+    top: 8px;
+    overflow: visible;
+}
+#Gruppe_248_o {
+    position: absolute;
+    width: 26.999px;
+    height: 25px;
+    left: 553.946px;
+    top: 8px;
+    overflow: visible;
+}
+#KontofhrungsgebhrJahr_xy00__p {
+    left: 8px;
+    top: 193.052px;
+    position: absolute;
+    overflow: visible;
+    width: 449px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#bank-austria-ag-vector-logo-40_q {
+    position: absolute;
+    width: 326px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bank_Austria__Go_Green_Konto__r {
+    left: 8px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Stand_7122021_s {
+    left: 8px;
+    top: 229px;
+    position: absolute;
+    overflow: visible;
+    width: 301px;
+    height: 20px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Wiederholungsraster_6_t {
+    position: absolute;
+    width: 330.117px;
+    height: 54.052px;
+    left: 8px;
+    top: 130px;
+    overflow: hidden;
+}
+#Group_u {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 0.052px;
+    overflow: visible;
+}
+#Pfad_943_v {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_v {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#online_verfgbar_w {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Group_y {
+    position: absolute;
+    width: 295px;
+    height: 24px;
+    left: 1.117px;
+    top: 32.052px;
+    overflow: visible;
+}
+#Pfad_943_y {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_943_y {
+    overflow: visible;
+    position: absolute;
+    width: 21.231px;
+    height: 16.542px;
+    left: 0px;
+    top: 1px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#kostenloser_Kontowechselservic_z {
+    left: 29px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 267px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Button_ {
+    position: absolute;
+    width: 135px;
+    height: 40px;
+    left: 500px;
+    top: 203px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto_Detail.html;
+    cursor: pointer;
+}
+#Rechteck_7_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_ {
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Produkt-Details_ {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Linie_40_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_ {
+    overflow: visible;
+    position: absolute;
+    width: 627px;
+    height: 1px;
+    left: 8px;
+    top: 276px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_44_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_44_ {
+    overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 594px;
+    top: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_251_ {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 606px;
+    top: 10px;
+    overflow: visible;
+}
+#Gruppe_250_ {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_249_ {
+    position: absolute;
+    width: 26.283px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_305_ {
+    position: absolute;
+    width: 1134.835px;
+    height: 6357.301px;
+    left: 275.66px;
+    top: 586.246px;
+    overflow: visible;
+}
+#Musteransicht_ {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,947.5233) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_a {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,1906.5232) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_b {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,2664.5232) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_c {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,3422.5232) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_d {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,5031.2698) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_e {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,6856.2698) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Gruppe_291 {
+    position: absolute;
+    width: 492px;
+    height: 593px;
+    left: 319px;
+    top: 1878px;
+    overflow: visible;
+}
+#Gruppe_253 {
+    position: absolute;
+    width: 492px;
+    height: 593px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#iStock-181098668 {
+    position: absolute;
+    width: 492px;
+    height: 593px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Button_i {
+    position: absolute;
+    width: 279px;
+    height: 54px;
+    left: 30px;
+    top: 194px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+}
+#Rechteck_7_j {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_j {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+}
+#Jetzt_kostenlos_registrieren_k {
+    left: 13px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 255px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -2.75px;
+    text-align: center;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(3,49,108,1);
+}
+#Dann_registriere_dich_jetzt_gl {
+    left: 30px;
+    top: 91px;
+    position: absolute;
+    overflow: visible;
+    width: 372px;
+    height: 76px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Willst_du_mehr_Informationen {
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 427px;
+    height: 80px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#iStock-854130132 {
+    position: absolute;
+    width: 945px;
+    height: 600px;
+    left: 975px;
+    top: 200px;
+    overflow: visible;
+}
+#Ein_Konto_also_eigentlich_ein_ {
+    left: 319px;
+    top: 364px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 236px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#bersicht_nachhaltiger_Privatko {
+    left: 319px;
+    top: 236px;
+    position: absolute;
+    overflow: visible;
+    width: 493px;
+    height: 103px;
+    line-height: 50px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,200,220,1);
+}
+#yourmoneymatters_q {
+    left: 319px;
+    top: 200px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 24px;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(46,92,132,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Home______Konto______Privatkon {
+    left: 319px;
+    top: 140px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 40px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Rechteck_23_s {
+    fill: rgba(243,249,251,1);
+}
+.Rechteck_23_s {
+    position: absolute;
+    overflow: visible;
+    width: 811px;
+    height: 796px;
+    left: 0px;
+    top: 982px;
+}
+#Wonach_suchst_du {
+    left: 321px;
+    top: 1061px;
+    position: absolute;
+    overflow: visible;
+    width: 461px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_286 {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 321px;
+    top: 1208px;
+    overflow: visible;
+}
+#Bevorzugtes_Bankinstitut {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 461px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_285 {
+    position: absolute;
+    width: 470px;
+    height: 343px;
+    left: 321px;
+    top: 1355px;
+    overflow: visible;
+}
+#Erweiterte_Suche {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 461px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Button_y {
+    position: absolute;
+    width: 121px;
+    height: 40px;
+    left: 0px;
+    top: 303px;
+    overflow: visible;
+}
+#Rechteck_7_z {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_z {
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Jetzt_suchen {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 88px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Wiederholungsraster_4 {
+    position: absolute;
+    width: 470px;
+    height: 236px;
+    left: 0px;
+    top: 47px;
+    overflow: hidden;
+}
+#Gruppe_197_ {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_24_ {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_ {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Kontoart {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_ {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_ {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 419.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_197_a {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 60px;
+    overflow: visible;
+}
+#Rechteck_24_a {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_a {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Land {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_a {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_a {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 419.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_197_b {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 120px;
+    overflow: visible;
+}
+#Rechteck_24_b {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_b {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Filter_3 {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_d {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_d {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 419.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_197_e {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 180px;
+    overflow: visible;
+}
+#Rechteck_24_f {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_f {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Filter_4 {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_i {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_i {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 419.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Umweltzeichen_i {
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 123px;
+    height: 113px;
+    left: 319px;
+    top: 687px;
+    overflow: visible;
+}
+#Gruppe_252 {
+    position: absolute;
+    width: 414px;
+    height: 283px;
+    left: 330px;
+    top: 2571px;
+    overflow: visible;
+}
+#Was_ist_ein_grnes_Konto__Koste {
+    left: 0px;
+    top: 66px;
+    position: absolute;
+    overflow: visible;
+    width: 415px;
+    height: 150px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Hufige_Fragen {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 415px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Button_m {
+    position: absolute;
+    width: 114px;
+    height: 40px;
+    left: 0px;
+    top: 243px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+}
+#Rechteck_7_n {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_n {
+    position: absolute;
+    overflow: visible;
+    width: 114px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Zu_den_FAQ {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 83px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Blog_-_Teaser {
+    position: absolute;
+    width: 1282px;
+    height: 441px;
+    left: 319px;
+    top: 3510px;
+    overflow: visible;
+}
+#Rechteck_49_q {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_49_q {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 217px;
+    left: 328px;
+    top: 242px;
+}
+#fh-wien50_r {
+    fill: rgba(216,216,214,1);
+}
+.fh-wien50_r {
+    position: absolute;
+    overflow: visible;
+    width: 298px;
+    height: 190px;
+    left: 328px;
+    top: 56px;
+}
+#Rechteck_58 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_58 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 217px;
+    left: 656px;
+    top: 242px;
+}
+#Rechteck_59 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_59 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 403px;
+    left: 984px;
+    top: 56px;
+}
+#Rechteck_45_u {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_u {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 217px;
+    left: 0px;
+    top: 242px;
+}
+#iStock-1349465204_v {
+    position: absolute;
+    width: 298px;
+    height: 190px;
+    left: 0px;
+    top: 56px;
+    overflow: visible;
+}
+#iStock-1367145986_w {
+    position: absolute;
+    width: 298px;
+    height: 190px;
+    left: 328px;
+    top: 56px;
+    overflow: visible;
+}
+#iStock-1303397527_x {
+    position: absolute;
+    width: 298px;
+    height: 190px;
+    left: 656px;
+    top: 56px;
+    overflow: visible;
+}
+#iStock-1257563298_y {
+    position: absolute;
+    width: 298px;
+    height: 190px;
+    left: 984px;
+    top: 56px;
+    overflow: visible;
+}
+#Greenwashing__ein_Kind_unserer_z {
+    left: 20px;
+    top: 297px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 120px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen_ {
+    left: 20px;
+    top: 399px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_anmelden_ {
+    left: 348px;
+    top: 399px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_vergleichen_ {
+    left: 676px;
+    top: 399px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen_a {
+    left: 1004px;
+    top: 399px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Wie_dein_Geld_zur__Klima-Abkhl {
+    left: 348px;
+    top: 297px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 92px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Wie_nachhaltig_sind_Bitcoin__C_ {
+    left: 676px;
+    top: 297px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 60px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Fast_Fashion__ein_ungesunder_T_ {
+    left: 1004px;
+    top: 297px;
+    position: absolute;
+    overflow: visible;
+    width: 257px;
+    height: 60px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#n_3_Mai_2022_ {
+    left: 20px;
+    top: 266px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n__Mai_2022_ {
+    left: 348px;
+    top: 266px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n_5_April_2022 {
+    left: 676px;
+    top: 266px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n__April_2022 {
+    left: 1004px;
+    top: 266px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#Das_knnte_dich_auch_noch_inter {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 709px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_333 {
+    position: absolute;
+    width: 635px;
+    height: 26.5px;
+    left: 967px;
+    top: 3285.5px;
+    overflow: visible;
+}
+#n___2__3 {
+    left: 274px;
+    top: 2.5px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    height: 24px;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: center;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Pfeil_e {
+    transform: translate(-967px, -3285.5px) matrix(1,0,0,1,1576.1666,3283) rotate(90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_f {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_139_g {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_14_h {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Linie_14_h {
+    overflow: visible;
+    position: absolute;
+    width: 28.333px;
+    height: 3px;
+    left: 0px;
+    top: 11.667px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_134_i {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Pfad_134_i {
+    overflow: visible;
+    position: absolute;
+    width: 14.849px;
+    height: 25.455px;
+    left: 16.667px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfeil_j {
+    transform: translate(-967px, -3285.5px) matrix(1,0,0,1,969.5,3283.6666) rotate(-90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_l {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_139_l {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_14_m {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Linie_14_m {
+    overflow: visible;
+    position: absolute;
+    width: 28.333px;
+    height: 3px;
+    left: 0px;
+    top: 11.667px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_134_n {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Pfad_134_n {
+    overflow: visible;
+    position: absolute;
+    width: 14.849px;
+    height: 25.455px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_945 {
+    fill: transparent;
+    stroke: rgba(231,244,248,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_945 {
+    overflow: visible;
+    position: absolute;
+    width: 11.209px;
+    height: 6px;
+    transform: matrix(1,0,0,1,364.8685,146) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Pfad_946 {
+    fill: transparent;
+    stroke: rgba(231,244,248,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_946 {
+    overflow: visible;
+    position: absolute;
+    width: 11.209px;
+    height: 6px;
+    transform: matrix(1,0,0,1,428.8685,146) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Pfad_947 {
+    fill: transparent;
+    stroke: rgba(231,244,248,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_947 {
+    overflow: visible;
+    position: absolute;
+    width: 11.209px;
+    height: 6px;
+    transform: matrix(1,0,0,1,527.8685,146) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Footer_r {
+    position: absolute;
+    width: 1284px;
+    height: 240.778px;
+    left: 317px;
+    top: 5020px;
+    overflow: visible;
+}
+#AGB_s {
+    left: 330px;
+    top: 64.278px;
+    position: absolute;
+    overflow: visible;
+    width: 35px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Datenschutz_t {
+    left: 330px;
+    top: 125.278px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Newsletteranmeldung_u {
+    left: 330px;
+    top: 94.278px;
+    position: absolute;
+    overflow: visible;
+    width: 176px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Impressum_v {
+    left: 330px;
+    top: 155.278px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Alle_Texte_sowie_die_Hinweise__w {
+    left: 658px;
+    top: 67.278px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 100px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#E__infobirdsoftrustat_x {
+    left: 0px;
+    top: 128.278px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#T__43_660_2004_512_y {
+    left: 0px;
+    top: 158.278px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_209_z {
+    position: absolute;
+    width: 143.093px;
+    height: 22.5px;
+    left: 2px;
+    top: 218.278px;
+    overflow: visible;
+}
+#Gruppe_166_ {
+    position: absolute;
+    width: 10.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_165_ {
+    position: absolute;
+    width: 10.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_ {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 119.563px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_ {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_170_ {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_169_ {
+    position: absolute;
+    width: 13.062px;
+    height: 4.416px;
+    left: 5.234px;
+    top: 6.125px;
+    overflow: visible;
+}
+#Linie_12_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_12_ {
+    overflow: visible;
+    position: absolute;
+    width: 13.062px;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_14_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_14_ {
+    overflow: visible;
+    position: absolute;
+    width: 13.062px;
+    height: 2px;
+    left: 0px;
+    top: 4.416px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_887_ {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_887_ {
+    overflow: visible;
+    position: absolute;
+    width: 25.53px;
+    height: 24.522px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_157_ {
+    position: absolute;
+    width: 22.5px;
+    height: 22.5px;
+    left: 74.86px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_156_a {
+    position: absolute;
+    width: 22.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_b {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 2px;
+    top: 40px;
+    overflow: visible;
+}
+#Ebene_1_c {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_d {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_e {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_e {
+    overflow: visible;
+    position: absolute;
+    width: 71.113px;
+    height: 16.887px;
+    left: 101.165px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_112_f {
+    position: absolute;
+    width: 265.298px;
+    height: 28.519px;
+    left: 0px;
+    top: 20.759px;
+    overflow: visible;
+}
+#Pfad_114_g {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_114_g {
+    overflow: visible;
+    position: absolute;
+    width: 24.885px;
+    height: 25.404px;
+    left: 0px;
+    top: 3.115px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_115_h {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_115_h {
+    overflow: visible;
+    position: absolute;
+    width: 12.572px;
+    height: 27.963px;
+    left: 26.7px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_116_i {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_116_i {
+    overflow: visible;
+    position: absolute;
+    width: 18.618px;
+    height: 19.137px;
+    left: 41.867px;
+    top: 8.827px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_117_j {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_117_j {
+    overflow: visible;
+    position: absolute;
+    width: 25.293px;
+    height: 25.404px;
+    left: 63.005px;
+    top: 3.116px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_118_k {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_118_k {
+    overflow: visible;
+    position: absolute;
+    width: 17.653px;
+    height: 19.878px;
+    left: 90.633px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_119_l {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_119_l {
+    overflow: visible;
+    position: absolute;
+    width: 21.992px;
+    height: 19.878px;
+    left: 117.11px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_120_m {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_120_m {
+    overflow: visible;
+    position: absolute;
+    width: 16.726px;
+    height: 25.404px;
+    left: 141.103px;
+    top: 2.559px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_121_n {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_121_n {
+    overflow: visible;
+    position: absolute;
+    width: 14.945px;
+    height: 25.367px;
+    left: 165.394px;
+    top: 3.152px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_122_o {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_122_o {
+    overflow: visible;
+    position: absolute;
+    width: 18.618px;
+    height: 19.137px;
+    left: 182.452px;
+    top: 8.827px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_123_p {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_123_p {
+    overflow: visible;
+    position: absolute;
+    width: 24.773px;
+    height: 19.359px;
+    left: 203.589px;
+    top: 9.161px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_124_q {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_124_q {
+    overflow: visible;
+    position: absolute;
+    width: 17.651px;
+    height: 19.878px;
+    left: 230.698px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_125_r {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_125_r {
+    overflow: visible;
+    position: absolute;
+    width: 14.944px;
+    height: 25.367px;
+    left: 250.354px;
+    top: 3.152px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_903_s {
+    fill: transparent;
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_903_s {
+    overflow: visible;
+    position: absolute;
+    width: 1275.998px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_289_u {
+    position: absolute;
+    width: 23.547px;
+    height: 22.5px;
+    left: 34px;
+    top: 218.278px;
+    overflow: visible;
+}
+#Pfad_950_u {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_950_u {
+    overflow: visible;
+    position: absolute;
+    width: 23.546px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Follow_Us_-_Blog_v {
+    position: absolute;
+    width: 1281px;
+    height: 656px;
+    left: 319px;
+    top: 4151px;
+    overflow: visible;
+}
+#Gruppe_315_w {
+    position: absolute;
+    width: 298px;
+    height: 584px;
+    left: 655px;
+    top: 72px;
+    overflow: visible;
+}
+#Rechteck_45_x {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_x {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 308px;
+    left: 0px;
+    top: 294px;
+}
+#Bild1_y {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_216_z {
+    position: absolute;
+    width: 246px;
+    height: 93px;
+    left: 16px;
+    top: 479px;
+    overflow: visible;
+}
+#birdsoftrust_20_April_ {
+    left: 62px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 185px;
+    height: 41px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_214_ {
+    position: absolute;
+    width: 96px;
+    height: 25px;
+    left: 0px;
+    top: 68px;
+    overflow: visible;
+}
+#Gruppe_213_ {
+    opacity: 0.36;
+    position: absolute;
+    width: 96px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n_0_ {
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Bild_1_ {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bild_2_ {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 24px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_44_ {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_44_ {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 23px;
+    left: 25px;
+    top: 2px;
+}
+#n_0_a {
+    left: 25px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_215_ {
+    position: absolute;
+    width: 52.817px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_12_ {
+    fill: rgba(136,200,220,1);
+}
+.Ellipse_12_ {
+    position: absolute;
+    overflow: visible;
+    width: 52.256px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+}
+#Ebene_2_a {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 22.338px;
+    overflow: visible;
+}
+#Ebene_1_b {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_c {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_d {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_d {
+    overflow: visible;
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_e {
+    left: 16px;
+    top: 311px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 160px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_316_f {
+    position: absolute;
+    width: 298px;
+    height: 584px;
+    left: 983px;
+    top: 72px;
+    overflow: visible;
+}
+#Rechteck_45_g {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_g {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 308px;
+    left: 0px;
+    top: 294px;
+}
+#Bild1_h {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_216_i {
+    position: absolute;
+    width: 246px;
+    height: 93px;
+    left: 16px;
+    top: 479px;
+    overflow: visible;
+}
+#birdsoftrust_3_April_j {
+    left: 62px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 185px;
+    height: 41px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_214_k {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 0px;
+    top: 68px;
+    overflow: visible;
+}
+#Gruppe_213_l {
+    opacity: 0.36;
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n__m {
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Bild_1_n {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bild_2_o {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 24px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_44_p {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_44_p {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 23px;
+    left: 25px;
+    top: 2px;
+}
+#n_5_q {
+    left: 25px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_215_r {
+    position: absolute;
+    width: 52.817px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_12_s {
+    fill: rgba(136,200,220,1);
+}
+.Ellipse_12_s {
+    position: absolute;
+    overflow: visible;
+    width: 52.256px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+}
+#Ebene_2_t {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 22.338px;
+    overflow: visible;
+}
+#Ebene_1_u {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_v {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_w {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_w {
+    overflow: visible;
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_x {
+    left: 16px;
+    top: 311px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 160px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#birdsoftrust_y {
+    left: 653px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(46,92,132,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Jetzt_birds_of_trust_auf_Insta_z {
+    left: 653px;
+    top: -4px;
+    position: absolute;
+    overflow: visible;
+    width: 414px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Follow_Us_ {
+    left: 0px;
+    top: -5px;
+    position: absolute;
+    overflow: visible;
+    width: 137px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Du_willst_noch__mehr_wissen_ {
+    left: 0px;
+    top: 55px;
+    position: absolute;
+    overflow: visible;
+    width: 457px;
+    height: 105px;
+    line-height: 50px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,200,220,1);
+}
+#Dann_werde_Teil_unserer_birds__ {
+    left: 0px;
+    top: 175px;
+    position: absolute;
+    overflow: visible;
+    width: 457px;
+    height: 76px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_233_ {
+    position: absolute;
+    width: 123.395px;
+    height: 30.203px;
+    left: 0px;
+    top: 288px;
+    overflow: visible;
+}
+#Gruppe_166_a {
+    position: absolute;
+    width: 14.095px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_165_a {
+    position: absolute;
+    width: 14.095px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_157_a {
+    position: absolute;
+    width: 30.203px;
+    height: 30.203px;
+    left: 38px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_156_ {
+    position: absolute;
+    width: 30.203px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_160_ {
+    position: absolute;
+    width: 31.395px;
+    height: 30px;
+    left: 92px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_159_ {
+    position: absolute;
+    width: 31.396px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Dropdown_a {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 321px;
+    top: 1263px;
+    overflow: visible;
+}
+#Gruppe_312_b {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_24_c {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_c {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Bank_d {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 165px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_e {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_e {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 424.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Dropdown_f {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 321px;
+    top: 1117px;
+    overflow: visible;
+}
+#Gruppe_312_g {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_24_i {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_24_i {
+    position: absolute;
+    overflow: visible;
+    width: 460px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Nachhaltiges_Privatkonto {
+    left: 15px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 203px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112,112,112,1);
+}
+#Pfad_900_j {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_900_j {
+    overflow: visible;
+    position: absolute;
+    width: 25.392px;
+    height: 15.661px;
+    left: 424.943px;
+    top: 13.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Kontaktflappe_k {
+    position: absolute;
+    width: 55px;
+    height: 223px;
+    left: 1865px;
+    top: 282px;
+    overflow: visible;
+}
+#Rechteck_20_l {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_20_l {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    height: 241px;
+    left: 0px;
+    top: 0px;
+}
+#Gruppe_166_m {
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    left: 21px;
+    top: 15px;
+    overflow: visible;
+}
+#Gruppe_165_n {
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_o {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 12px;
+    top: 179px;
+    overflow: visible;
+}
+#Ebene_1_q {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_170_q {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_169_r {
+    position: absolute;
+    width: 17.416px;
+    height: 5.888px;
+    left: 6.979px;
+    top: 8.167px;
+    overflow: visible;
+}
+#Linie_12_s {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_12_s {
+    overflow: visible;
+    position: absolute;
+    width: 17.416px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_14_t {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_14_t {
+    overflow: visible;
+    position: absolute;
+    width: 17.416px;
+    height: 3px;
+    left: 0px;
+    top: 5.888px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_887_u {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_887_u {
+    overflow: visible;
+    position: absolute;
+    width: 34.373px;
+    height: 33.032px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_157_v {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 13px;
+    top: 123px;
+    overflow: visible;
+}
+#Gruppe_156_w {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_159_x {
+    position: absolute;
+    width: 30px;
+    height: 28.667px;
+    left: 13px;
+    top: 70px;
+    overflow: visible;
+}
+#Men_y {
+    position: absolute;
+    width: 1920px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_73_z {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_73_z {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 68px;
+    left: 0px;
+    top: 44px;
+}
+#Men_ {
+    position: absolute;
+    width: 1920px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_904_ {
+    fill: rgba(243,249,251,1);
+}
+.Pfad_904_ {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Home_ {
+    left: 773px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Home.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Konto_ {
+    left: 869px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Finanzieren_ {
+    left: 975px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#ber_Uns_ {
+    left: 1678px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Wissen__News_ {
+    left: 1139px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 148px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Methodik_ {
+    left: 1328px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 96px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#DE__EN_ {
+    left: 1784px;
+    top: 15px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Partner_Werden_ {
+    left: 1469px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 163px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#FAQ_a {
+    left: 1810px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 36px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Rechteck_5_b {
+    fill: rgba(3,49,108,1);
+}
+.Rechteck_5_b {
+    position: absolute;
+    overflow: visible;
+    width: 66px;
+    height: 3px;
+    left: 869px;
+    top: 50px;
+}
+#Login_c {
+    left: 1660.09px;
+    top: 15px;
+    position: absolute;
+    overflow: visible;
+    width: 45px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Ebene_2_e {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 1714.557px;
+    top: 9.018px;
+    overflow: visible;
+}
+#Ebene_1_e {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_117_f {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_141_g {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_141_g {
+    overflow: visible;
+    position: absolute;
+    width: 21.443px;
+    height: 12.677px;
+    left: 0px;
+    top: 13.478px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_142_h {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_142_h {
+    overflow: visible;
+    position: absolute;
+    width: 12.933px;
+    height: 12.931px;
+    left: 4.257px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ebene_2_i {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 1574.819px;
+    top: 9.018px;
+    overflow: visible;
+}
+#Ebene_1_j {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_118_k {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_143_l {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 1.7857099771499634px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_143_l {
+    overflow: visible;
+    position: absolute;
+    width: 11.412px;
+    height: 11.411px;
+    left: 15.925px;
+    top: 15.899px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_144_m {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 1.7857099771499634px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_144_m {
+    overflow: visible;
+    position: absolute;
+    width: 22.263px;
+    height: 22.263px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ebene_2_u {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 319px;
+    top: 44.088px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Home.html;
+    cursor: pointer;
+}
+#Ebene_1_o {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_p {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_q {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_q {
+    overflow: visible;
+    position: absolute;
+    width: 83.208px;
+    height: 19.759px;
+    left: 118.371px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_112_r {
+    position: absolute;
+    width: 310.421px;
+    height: 33.37px;
+    left: 0px;
+    top: 24.29px;
+    overflow: visible;
+}
+#Pfad_114_s {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_114_s {
+    overflow: visible;
+    position: absolute;
+    width: 29.117px;
+    height: 29.725px;
+    left: 0px;
+    top: 3.645px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_115_t {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_115_t {
+    overflow: visible;
+    position: absolute;
+    width: 14.71px;
+    height: 32.719px;
+    left: 31.242px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_116_u {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_116_u {
+    overflow: visible;
+    position: absolute;
+    width: 21.784px;
+    height: 22.391px;
+    left: 48.988px;
+    top: 10.328px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_117_v {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_117_v {
+    overflow: visible;
+    position: absolute;
+    width: 29.595px;
+    height: 29.725px;
+    left: 73.722px;
+    top: 3.645px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_118_w {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_118_w {
+    overflow: visible;
+    position: absolute;
+    width: 20.656px;
+    height: 23.259px;
+    left: 106.048px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_119_x {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_119_x {
+    overflow: visible;
+    position: absolute;
+    width: 25.732px;
+    height: 23.259px;
+    left: 137.029px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_120_y {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_120_y {
+    overflow: visible;
+    position: absolute;
+    width: 19.571px;
+    height: 29.725px;
+    left: 165.103px;
+    top: 2.994px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_121_z {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_121_z {
+    overflow: visible;
+    position: absolute;
+    width: 17.486px;
+    height: 29.682px;
+    left: 193.524px;
+    top: 3.688px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_122_ {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_122_ {
+    overflow: visible;
+    position: absolute;
+    width: 21.785px;
+    height: 22.391px;
+    left: 213.484px;
+    top: 10.328px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_123_ {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_123_ {
+    overflow: visible;
+    position: absolute;
+    width: 28.986px;
+    height: 22.652px;
+    left: 238.216px;
+    top: 10.718px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_124_ {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_124_ {
+    overflow: visible;
+    position: absolute;
+    width: 20.654px;
+    height: 23.259px;
+    left: 269.937px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_125_ {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_125_ {
+    overflow: visible;
+    position: absolute;
+    width: 17.486px;
+    height: 29.682px;
+    left: 292.935px;
+    top: 3.688px;
+    transform: matrix(1,0,0,1,0,0);
+}
