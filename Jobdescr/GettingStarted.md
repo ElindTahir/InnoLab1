@@ -1,14 +1,21 @@
 
 # Getting Started
 Dieses File soll euch durch die einzelnen Schritte begleiten.
+## Zugeordnete Seiten
+- Ahmed &rarr; [News](../News.html), [News___!](../News___1.html)
+- Mohamed &rarr; [Konto_Detail](../Konto_Detail.html)
+- Amira &rarr; [Teaser](../Teaser.html)
+- Mustafa &rarr; [Home](../Home.html)
+- Elind &rarr; [Kontoübersicht](../Konto__bersicht.html)
+
 ## To Do's
-1. - [ ] CSS und JS von file trennen und verlinken 
+- [ ] CSS und JS von file trennen und verlinken 
    - CSS und JS unverändert lassen!!
-2. - [ ] Auf die Pfade achten und Bilder neu verlinken (Pfad relativ)
+- [ ] Auf die Pfade achten und Bilder neu verlinken (Pfad relativ)
    - Da fehlt dann immer ein `img/` am Anfang der `src` und `srcset`
-3. - [ ] Falls auf der Seite Dropdowns oder andere Platzhalter, die Daten enthalten sollen,
+- [ ] Falls auf der Seite Dropdowns oder andere Platzhalter, die Daten enthalten sollen,
 vorhanden sind, dann aufschreiben welche Daten wir da brauchen(für Kopp)
-4. - [ ] Alles protokollieren und Probleme aufschreiben.
+- [ ] Alles protokollieren und Probleme aufschreiben.
 
 ## Github
 - [ ] Vorm push nachchecken ob alles ok ist, bei schweren Problem melden oder reinschreiben.
@@ -18,11 +25,5 @@ vorhanden sind, dann aufschreiben welche Daten wir da brauchen(für Kopp)
     und das Problem beschreiben.
 
 
-## Zugeordnete Seiten
-- Ahmed &rarr; [News](../News.html), [News___!](../News___1.html)
-- Mohamed &rarr; [Konto_Detail](../Konto_Detail.html)
-- Amira &rarr; [Teaser](../Teaser.html)
-- Mustafa &rarr; [Home](../Home.html)
-- Elind &rarr; [Kontoübersicht](../Konto__bersicht.html)
 
 > GOOD LUCK :+1:
