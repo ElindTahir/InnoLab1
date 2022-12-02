@@ -2,7 +2,7 @@
 # Getting Started
 Dieses File soll euch durch die einzelnen Schritte begleiten.
 ## Zugeordnete Seiten
-- Ahmed &rarr; [News](../News.html), [News___!](../News___1.html)
+- Ahmed &rarr; [News](../News.html), [News___1](../News___1.html)
 - Mohamed &rarr; [Konto_Detail](../Konto_Detail.html)
 - Amira &rarr; [Teaser](../Teaser.html)
 - Mustafa &rarr; [Home](../Home.html)

@@ -1,6 +1,9 @@
 .vs/
 InnoLab1/.vs
+<<<<<<< Updated upstream
 .idea/
 InnoLab1/.idea
+=======
+>>>>>>> Stashed changes
 .fleet/
 InnoLab1/.fleet

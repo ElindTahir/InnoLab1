@@ -1,0 +1,3080 @@
+.mediaViewInfo {
+ --web-view-name: News;
+ --web-view-id: News;
+ --web-scale-on-resize: true;
+ --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: News;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#News {
+    position: absolute;
+    width: 1920px;
+    height: 5105px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: News;
+    --web-view-id: News;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#Rechteck_49 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_49 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 480px;
+    height: 200px;
+    left: 975px;
+    top: 1622px;
+}
+#fh-wien50_l {
+    fill: rgba(216,218,217,1);
+}
+.fh-wien50_l {
+    position: absolute;
+    overflow: visible;
+    width: 462px;
+    height: 298px;
+    left: 975px;
+    top: 1328px;
+}
+#iStock-490686254 {
+    position: absolute;
+    width: 2027px;
+    height: 926px;
+    left: 0px;
+    top: 96px;
+    overflow: visible;
+}
+#Du_mchtest_herausfinden_was__m {
+    left: 319px;
+    top: 280px;
+    position: absolute;
+    overflow: visible;
+    width: 555px;
+    height: 308px;
+    line-height: 44px;
+    margin-top: -5.5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    color: rgba(3,49,108,1);
+}
+#yourmoneymatters_l {
+    left: 317px;
+    top: 931px;
+    position: absolute;
+    overflow: visible;
+    width: 233px;
+    white-space: nowrap;
+    line-height: 48px;
+    margin-top: -14px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(3,49,108,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Button_l {
+    position: absolute;
+    width: 180px;
+    height: 54px;
+    left: 319px;
+    top: 614px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+}
+#Pfad_935 {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_935 {
+    overflow: visible;
+    position: absolute;
+    width: 180px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Jetzt_anmelden_l {
+    left: 19px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 145px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -2.75px;
+    text-align: center;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Rechteck_47 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_47 {
+    position: absolute;
+    overflow: visible;
+    width: 164px;
+    height: 80px;
+    left: 0px;
+    top: 942px;
+}
+#Pfeil {
+    transform: matrix(1,0,0,1,109.6666,967.5) rotate(90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_ma {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_139 {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_14_mc {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Linie_14_mc {
+    overflow: visible;
+    position: absolute;
+    width: 28.333px;
+    height: 3px;
+    left: 0px;
+    top: 11.667px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_134 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Pfad_134 {
+    overflow: visible;
+    position: absolute;
+    width: 14.849px;
+    height: 25.455px;
+    left: 16.667px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfeil_me {
+    transform: matrix(1,0,0,1,36.6665,967.4999) rotate(-90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_mf {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_139_mg {
+    position: absolute;
+    width: 23.333px;
+    height: 28.333px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Linie_14_mh {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Linie_14_mh {
+    overflow: visible;
+    position: absolute;
+    width: 28.333px;
+    height: 3px;
+    left: 0px;
+    top: 11.667px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_134_mi {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 10;
+    shape-rendering: auto;
+}
+.Pfad_134_mi {
+    overflow: visible;
+    position: absolute;
+    width: 14.849px;
+    height: 25.455px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rechteck_45_mj {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_mj {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 480px;
+    height: 200px;
+    left: 483px;
+    top: 1622px;
+}
+#Rechteck_53 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_53 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 480px;
+    height: 200px;
+    left: 483px;
+    top: 2133px;
+}
+#Rechteck_54 {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_54 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 480px;
+    height: 200px;
+    left: 975px;
+    top: 2133px;
+}
+#iStock-1349465204 {
+    position: absolute;
+    width: 462px;
+    height: 298px;
+    left: 483px;
+    top: 1328px;
+    overflow: visible;
+}
+#iStock-1303397527 {
+    position: absolute;
+    width: 462px;
+    height: 298px;
+    left: 483px;
+    top: 1839px;
+    overflow: visible;
+}
+#iStock-1367145986 {
+    position: absolute;
+    width: 462px;
+    height: 298px;
+    left: 975px;
+    top: 1328px;
+    overflow: visible;
+}
+#iStock-1257563298 {
+    position: absolute;
+    width: 462px;
+    height: 298px;
+    left: 975px;
+    top: 1839px;
+    overflow: visible;
+}
+#Greenwashing__ein_Kind_unserer {
+    left: 503px;
+    top: 1677px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 60px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Wie_nachhaltig_sind_Bitcoin__C {
+    left: 503px;
+    top: 2188px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen {
+    left: 503px;
+    top: 1759px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen_mt {
+    left: 503px;
+    top: 2270px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen_mu {
+    left: 995px;
+    top: 1759px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Jetzt_reinlesen_mv {
+    left: 995px;
+    top: 2270px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 20px;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: News___1.html;
+    cursor: pointer;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Wie_dein_Geld_zur_Klima-Abkhlu {
+    left: 995px;
+    top: 1677px;
+    position: absolute;
+    overflow: visible;
+    width: 421px;
+    height: 60px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Fast_Fashion__ein_ungesunder_T {
+    left: 995px;
+    top: 2188px;
+    position: absolute;
+    overflow: visible;
+    width: 443px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#n_3_Mai_2022 {
+    left: 503px;
+    top: 1646px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n_0_April__2022 {
+    left: 503px;
+    top: 2157px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n__Mai_2022 {
+    left: 995px;
+    top: 1646px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#n_3_April__2022 {
+    left: 995px;
+    top: 2157px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(136,200,220,1);
+}
+#Das_Neueste_vom_birds_of_trust {
+    left: 319px;
+    top: 1210px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 103px;
+    line-height: 50px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,200,220,1);
+}
+#besserverstehen {
+    left: 319px;
+    top: 1172px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 24px;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Was_meinen_unsere_Nutzerinnen {
+    left: 319px;
+    top: 3305px;
+    position: absolute;
+    overflow: visible;
+    width: 299px;
+    height: 80px;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Bildlaufgruppe_1 {
+    mix-blend-mode: normal;
+    position: absolute;
+    width: 954px;
+    height: 335px;
+    left: 647px;
+    top: 3431px;
+    overflow: hidden;
+}
+#Wiederholungsraster_11 {
+    position: absolute;
+    width: 1936px;
+    height: 335px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+#Group {
+    position: absolute;
+    width: 954px;
+    height: 338px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Madeleine_25 {
+    left: 492px;
+    top: 277px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Hannes_43 {
+    left: 0px;
+    top: 277px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Angestellte {
+    left: 492px;
+    top: 314px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Angestellter {
+    left: 0px;
+    top: 314px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Ich_war_absolut_begeistert_vom {
+    left: 492px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 240px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Lorem_ipsum_dolor_sit_amet_con_nd {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 240px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Group_ne {
+    position: absolute;
+    width: 954px;
+    height: 338px;
+    left: 974px;
+    top: 0px;
+    overflow: visible;
+}
+#Madeleine_25_nf {
+    left: 492px;
+    top: 277px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Hannes_43_ng {
+    left: 0px;
+    top: 277px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Angestellte_nh {
+    left: 492px;
+    top: 314px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Angestellter_ni {
+    left: 0px;
+    top: 314px;
+    position: absolute;
+    overflow: visible;
+    width: 264px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Ich_war_absolut_begeistert_vom_nj {
+    left: 492px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 240px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Lorem_ipsum_dolor_sit_amet_con_nk {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 240px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Pfeil-re {
+    position: absolute;
+    width: 47.857px;
+    height: 30px;
+    left: 396.857px;
+    top: 3401px;
+    overflow: visible;
+}
+#Gruppe_37 {
+    position: absolute;
+    width: 47.857px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfeil-re_nn {
+    transform: matrix(1,0,0,1,318.9998,3401) rotate(180deg);
+    transform-origin: center;
+    position: absolute;
+    width: 47.857px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_37_no {
+    position: absolute;
+    width: 47.857px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Follow_Us_-_Blog {
+    position: absolute;
+    width: 1281px;
+    height: 656px;
+    left: 319px;
+    top: 3966px;
+    overflow: visible;
+}
+#Gruppe_315_nq {
+    position: absolute;
+    width: 298px;
+    height: 584px;
+    left: 655px;
+    top: 72px;
+    overflow: visible;
+}
+#Rechteck_45_nr {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_nr {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 308px;
+    left: 0px;
+    top: 294px;
+}
+#Bild1_ns {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_216_nt {
+    position: absolute;
+    width: 246px;
+    height: 93px;
+    left: 16px;
+    top: 479px;
+    overflow: visible;
+}
+#birdsoftrust_20_April_nu {
+    left: 62px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 185px;
+    height: 41px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_214_nv {
+    position: absolute;
+    width: 96px;
+    height: 25px;
+    left: 0px;
+    top: 68px;
+    overflow: visible;
+}
+#Gruppe_213_nw {
+    opacity: 0.36;
+    position: absolute;
+    width: 96px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n_0_nx {
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Bild_1_ny {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bild_2_nz {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 24px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_44_n {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_44_n {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 23px;
+    left: 25px;
+    top: 2px;
+}
+#n_0_n {
+    left: 25px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_215_n {
+    position: absolute;
+    width: 52.817px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_12_n {
+    fill: rgba(136,200,220,1);
+}
+.Ellipse_12_n {
+    position: absolute;
+    overflow: visible;
+    width: 52.256px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+}
+#Ebene_2_n {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 22.338px;
+    overflow: visible;
+}
+#Ebene_1_n {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_n {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_n {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_n {
+    overflow: visible;
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_n {
+    left: 16px;
+    top: 311px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 160px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_316_n {
+    position: absolute;
+    width: 298px;
+    height: 584px;
+    left: 983px;
+    top: 72px;
+    overflow: visible;
+}
+#Rechteck_45_oa {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_45_oa {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 316px;
+    height: 308px;
+    left: 0px;
+    top: 294px;
+}
+#Bild1_ob {
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_216_oc {
+    position: absolute;
+    width: 246px;
+    height: 93px;
+    left: 16px;
+    top: 479px;
+    overflow: visible;
+}
+#birdsoftrust_3_April_od {
+    left: 62px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 185px;
+    height: 41px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_214_oe {
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 0px;
+    top: 68px;
+    overflow: visible;
+}
+#Gruppe_213_of {
+    opacity: 0.36;
+    position: absolute;
+    width: 88px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#n__og {
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Bild_1_oh {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Bild_2_oi {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    left: 24px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_44_oj {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_44_oj {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 23px;
+    left: 25px;
+    top: 2px;
+}
+#n_5_ok {
+    left: 25px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 18px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_215_ol {
+    position: absolute;
+    width: 52.817px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_12_om {
+    fill: rgba(136,200,220,1);
+}
+.Ellipse_12_om {
+    position: absolute;
+    overflow: visible;
+    width: 52.256px;
+    height: 52.256px;
+    left: 0px;
+    top: 0px;
+}
+#Ebene_2_on {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 22.338px;
+    overflow: visible;
+}
+#Ebene_1_oo {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_op {
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_oq {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_oq {
+    overflow: visible;
+    position: absolute;
+    width: 52.817px;
+    height: 12.542px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con_or {
+    left: 16px;
+    top: 311px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 160px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+}
+#birdsoftrust_os {
+    left: 653px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(46,92,132,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Jetzt_birds_of_trust_auf_Insta_ot {
+    left: 653px;
+    top: -4px;
+    position: absolute;
+    overflow: visible;
+    width: 414px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Follow_Us {
+    left: 0px;
+    top: -5px;
+    position: absolute;
+    overflow: visible;
+    width: 137px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(3,49,108,1);
+}
+#Du_willst_noch__mehr_wissen {
+    left: 0px;
+    top: 55px;
+    position: absolute;
+    overflow: visible;
+    width: 457px;
+    height: 105px;
+    line-height: 50px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,200,220,1);
+}
+#Dann_werde_Teil_unserer_birds_ {
+    left: 0px;
+    top: 175px;
+    position: absolute;
+    overflow: visible;
+    width: 457px;
+    height: 76px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#Gruppe_233 {
+    position: absolute;
+    width: 123.395px;
+    height: 30.203px;
+    left: 0px;
+    top: 288px;
+    overflow: visible;
+}
+#Gruppe_166_oy {
+    position: absolute;
+    width: 14.095px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_165_oz {
+    position: absolute;
+    width: 14.095px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_157_o {
+    position: absolute;
+    width: 30.203px;
+    height: 30.203px;
+    left: 38px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_156_o {
+    position: absolute;
+    width: 30.203px;
+    height: 30.203px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_160 {
+    position: absolute;
+    width: 31.395px;
+    height: 30px;
+    left: 92px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_159_o {
+    position: absolute;
+    width: 31.395px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_241 {
+    position: absolute;
+    width: 1921px;
+    height: 590px;
+    left: 0px;
+    top: 2515px;
+    overflow: visible;
+}
+#Rechteck_23_o {
+    fill: rgba(243,249,251,1);
+}
+.Rechteck_23_o {
+    position: absolute;
+    overflow: visible;
+    width: 1921px;
+    height: 590px;
+    left: 0px;
+    top: 0px;
+}
+#Nachhaltige_ETFs__Risiko_oder_ {
+    left: 892px;
+    top: 187px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Episode_8 {
+    left: 892px;
+    top: 156px;
+    position: absolute;
+    overflow: visible;
+    width: 463px;
+    height: 24px;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(46,92,132,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#der_BOTcast_fr_nachhaltige_Gel {
+    left: 319px;
+    top: 239px;
+    position: absolute;
+    overflow: visible;
+    width: 419px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(3,49,108,1);
+}
+#Green_Money_Talks {
+    left: 319px;
+    top: 188px;
+    position: absolute;
+    overflow: visible;
+    width: 419px;
+    height: 53px;
+    line-height: 50px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(136,200,220,1);
+}
+#podcast {
+    left: 319px;
+    top: 150px;
+    position: absolute;
+    overflow: visible;
+    width: 419px;
+    height: 24px;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Button_pb {
+    position: absolute;
+    width: 195px;
+    height: 40px;
+    left: 811px;
+    top: 400px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+}
+#Rechteck_7_pc {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rechteck_7_pc {
+    position: absolute;
+    overflow: visible;
+    width: 195px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Zu_allen_Podcast-Folgen {
+    left: 16px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 169px;
+    white-space: nowrap;
+    line-height: 25.5px;
+    margin-top: -5.25px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_240 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 811px;
+    top: 150px;
+    overflow: visible;
+}
+#Ellipse_14 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_14 {
+    position: absolute;
+    overflow: visible;
+    width: 64px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+#Polygon_1 {
+    fill: rgba(136,200,220,1);
+}
+.Polygon_1 {
+    overflow: visible;
+    position: absolute;
+    width: 39px;
+    height: 29px;
+    transform: translate(-661px, -2583px) matrix(1,0,0,1,679,2600) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Wiederholungsraster_3 {
+    position: absolute;
+    width: 790px;
+    height: 150px;
+    left: 811px;
+    top: 240px;
+    overflow: hidden;
+}
+#Group_pi {
+    position: absolute;
+    width: 790.5px;
+    height: 37.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Episode_7_Inklusives_Banking_- {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 578px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#n_03755 {
+    left: 656px;
+    top: 3px;
+    position: absolute;
+    overflow: visible;
+    width: 132px;
+    height: 20px;
+    text-align: right;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Linie_40 {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40 {
+    overflow: visible;
+    position: absolute;
+    width: 790px;
+    height: 1px;
+    left: 0.5px;
+    top: 37.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_pm {
+    position: absolute;
+    width: 790.5px;
+    height: 37.5px;
+    left: 0px;
+    top: 58px;
+    overflow: visible;
+}
+#Episode_6_Frauen_und_Finanzen {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 578px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#n_03021 {
+    left: 656px;
+    top: 3px;
+    position: absolute;
+    overflow: visible;
+    width: 132px;
+    height: 20px;
+    text-align: right;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Linie_40_pp {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_pp {
+    overflow: visible;
+    position: absolute;
+    width: 790px;
+    height: 1px;
+    left: 0.5px;
+    top: 37.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_pq {
+    position: absolute;
+    width: 790.5px;
+    height: 37.5px;
+    left: 0px;
+    top: 116px;
+    overflow: visible;
+}
+#Episode_5_Wenn_das_Cash_nicht_ {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 578px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+#n_03802 {
+    left: 656px;
+    top: 3px;
+    position: absolute;
+    overflow: visible;
+    width: 132px;
+    height: 20px;
+    text-align: right;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#Linie_40_pt {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_40_pt {
+    overflow: visible;
+    position: absolute;
+    width: 790px;
+    height: 1px;
+    left: 0.5px;
+    top: 37.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Footer_pu {
+    position: absolute;
+    width: 1284px;
+    height: 240.778px;
+    left: 317px;
+    top: 4835px;
+    overflow: visible;
+}
+#AGB_pv {
+    left: 330px;
+    top: 64.278px;
+    position: absolute;
+    overflow: visible;
+    width: 35px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Datenschutz_pw {
+    left: 330px;
+    top: 125.278px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Newsletteranmeldung_px {
+    left: 330px;
+    top: 94.278px;
+    position: absolute;
+    overflow: visible;
+    width: 176px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Impressum_py {
+    left: 330px;
+    top: 155.278px;
+    position: absolute;
+    overflow: visible;
+    width: 89px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Alle_Texte_sowie_die_Hinweise__pz {
+    left: 658px;
+    top: 67.278px;
+    position: absolute;
+    overflow: visible;
+    width: 627px;
+    height: 100px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(112,112,112,1);
+}
+#E__infobirdsoftrustat_p {
+    left: 0px;
+    top: 128.278px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#T__43_660_2004_512_p {
+    left: 0px;
+    top: 158.278px;
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Gruppe_209_p {
+    position: absolute;
+    width: 143.093px;
+    height: 22.5px;
+    left: 2px;
+    top: 218.278px;
+    overflow: visible;
+}
+#Gruppe_166_p {
+    position: absolute;
+    width: 10.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_165_p {
+    position: absolute;
+    width: 10.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_p {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 119.563px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_1_p {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_170_p {
+    position: absolute;
+    width: 23.53px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_169_p {
+    position: absolute;
+    width: 13.062px;
+    height: 4.416px;
+    left: 5.234px;
+    top: 6.125px;
+    overflow: visible;
+}
+#Linie_12_p {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_12_p {
+    overflow: visible;
+    position: absolute;
+    width: 13.062px;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_14_qa {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_14_qa {
+    overflow: visible;
+    position: absolute;
+    width: 13.062px;
+    height: 2px;
+    left: 0px;
+    top: 4.416px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_887_qb {
+    fill: transparent;
+    stroke: rgba(136,200,220,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_887_qb {
+    overflow: visible;
+    position: absolute;
+    width: 25.53px;
+    height: 24.522px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_157_qc {
+    position: absolute;
+    width: 22.5px;
+    height: 22.5px;
+    left: 74.86px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_156_qd {
+    position: absolute;
+    width: 22.5px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_qe {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 2px;
+    top: 40px;
+    overflow: visible;
+}
+#Ebene_1_qf {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_qg {
+    position: absolute;
+    width: 265.298px;
+    height: 49.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_qh {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_qh {
+    overflow: visible;
+    position: absolute;
+    width: 71.113px;
+    height: 16.887px;
+    left: 101.165px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_112_qi {
+    position: absolute;
+    width: 265.298px;
+    height: 28.519px;
+    left: 0px;
+    top: 20.759px;
+    overflow: visible;
+}
+#Pfad_114_qj {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_114_qj {
+    overflow: visible;
+    position: absolute;
+    width: 24.885px;
+    height: 25.404px;
+    left: 0px;
+    top: 3.115px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_115_qk {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_115_qk {
+    overflow: visible;
+    position: absolute;
+    width: 12.572px;
+    height: 27.963px;
+    left: 26.7px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_116_ql {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_116_ql {
+    overflow: visible;
+    position: absolute;
+    width: 18.618px;
+    height: 19.137px;
+    left: 41.867px;
+    top: 8.827px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_117_qm {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_117_qm {
+    overflow: visible;
+    position: absolute;
+    width: 25.293px;
+    height: 25.404px;
+    left: 63.005px;
+    top: 3.116px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_118_qn {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_118_qn {
+    overflow: visible;
+    position: absolute;
+    width: 17.653px;
+    height: 19.878px;
+    left: 90.633px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_119_qo {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_119_qo {
+    overflow: visible;
+    position: absolute;
+    width: 21.992px;
+    height: 19.878px;
+    left: 117.11px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_120_qp {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_120_qp {
+    overflow: visible;
+    position: absolute;
+    width: 16.726px;
+    height: 25.404px;
+    left: 141.103px;
+    top: 2.559px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_121_qq {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_121_qq {
+    overflow: visible;
+    position: absolute;
+    width: 14.945px;
+    height: 25.367px;
+    left: 165.393px;
+    top: 3.152px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_122_qr {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_122_qr {
+    overflow: visible;
+    position: absolute;
+    width: 18.618px;
+    height: 19.137px;
+    left: 182.452px;
+    top: 8.827px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_123_qs {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_123_qs {
+    overflow: visible;
+    position: absolute;
+    width: 24.773px;
+    height: 19.359px;
+    left: 203.589px;
+    top: 9.161px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_124_qt {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_124_qt {
+    overflow: visible;
+    position: absolute;
+    width: 17.652px;
+    height: 19.878px;
+    left: 230.698px;
+    top: 8.641px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_125_qu {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_125_qu {
+    overflow: visible;
+    position: absolute;
+    width: 14.945px;
+    height: 25.367px;
+    left: 250.353px;
+    top: 3.152px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_903_qv {
+    fill: transparent;
+    stroke: rgba(231,244,248,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_903_qv {
+    overflow: visible;
+    position: absolute;
+    width: 1275.998px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_289_qw {
+    position: absolute;
+    width: 23.547px;
+    height: 22.5px;
+    left: 34px;
+    top: 218.278px;
+    overflow: visible;
+}
+#Pfad_950_qx {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_950_qx {
+    overflow: visible;
+    position: absolute;
+    width: 23.547px;
+    height: 22.5px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_305_qy {
+    position: absolute;
+    width: 1134.835px;
+    height: 6357.301px;
+    left: 275.66px;
+    top: 834.246px;
+    overflow: visible;
+}
+#Musteransicht_qz {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,947.5233) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_q {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,4589.2698) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_ra {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,5545.2698) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_rb {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,6856.2698) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_rc {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,2261.27) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Musteransicht_rd {
+    opacity: 0.06;
+    transform: translate(-275.66px, -834.246px) matrix(1,0,0,1,286.5772,3745.27) rotate(-12deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 1114px;
+    white-space: nowrap;
+    line-height: 209px;
+    margin-top: -21px;
+    text-align: left;
+    font-family: Mirador;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 167px;
+    color: rgba(112,112,112,1);
+}
+#Kontaktflappe_q {
+    position: absolute;
+    width: 55px;
+    height: 223px;
+    left: 1865px;
+    top: 282px;
+    overflow: visible;
+}
+#Rechteck_20_q {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_20_q {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 73px;
+    height: 241px;
+    left: 0px;
+    top: 0px;
+}
+#Gruppe_166_q {
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    left: 21px;
+    top: 15px;
+    overflow: visible;
+}
+#Gruppe_165_q {
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ebene_2_q {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 12px;
+    top: 179px;
+    overflow: visible;
+}
+#Ebene_1_ra {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_170_rb {
+    position: absolute;
+    width: 31.373px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_169_rc {
+    position: absolute;
+    width: 17.416px;
+    height: 5.888px;
+    left: 6.979px;
+    top: 8.167px;
+    overflow: visible;
+}
+#Linie_12_rd {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_12_rd {
+    overflow: visible;
+    position: absolute;
+    width: 17.416px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Linie_14_re {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Linie_14_re {
+    overflow: visible;
+    position: absolute;
+    width: 17.416px;
+    height: 3px;
+    left: 0px;
+    top: 5.888px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_887_rf {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_887_rf {
+    overflow: visible;
+    position: absolute;
+    width: 34.373px;
+    height: 33.032px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_157_rg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 13px;
+    top: 123px;
+    overflow: visible;
+}
+#Gruppe_156_rh {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_159_ri {
+    position: absolute;
+    width: 30px;
+    height: 28.667px;
+    left: 13px;
+    top: 70px;
+    overflow: visible;
+}
+#Men_rj {
+    position: absolute;
+    width: 1920px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rechteck_73_rk {
+    fill: rgba(255,255,255,1);
+}
+.Rechteck_73_rk {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 68px;
+    left: 0px;
+    top: 44px;
+}
+#Men_rl {
+    position: absolute;
+    width: 1920px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_904_rm {
+    fill: rgba(243,249,251,1);
+}
+.Pfad_904_rm {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Home_rn {
+    left: 773px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Home.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Konto_ro {
+    left: 869px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Konto__bersicht.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Finanzieren_rp {
+    left: 975px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 120px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#ber_Uns_rq {
+    left: 1678px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Wissen__News_rr {
+    left: 1139px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 148px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Methodik_rs {
+    left: 1328px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 96px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#DE__EN_rt {
+    left: 1784px;
+    top: 15px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Partner_Werden_ru {
+    left: 1469px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 163px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#FAQ_rv {
+    left: 1810px;
+    top: 82px;
+    position: absolute;
+    overflow: visible;
+    width: 36px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 20px;
+    margin-top: -1px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+#Rechteck_5_rw {
+    fill: rgba(3,49,108,1);
+}
+.Rechteck_5_rw {
+    position: absolute;
+    overflow: visible;
+    width: 149px;
+    height: 3px;
+    left: 1139px;
+    top: 50px;
+}
+#Login_rx {
+    left: 1660.09px;
+    top: 15px;
+    position: absolute;
+    overflow: visible;
+    width: 45px;
+    white-space: nowrap;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Teaser.html;
+    cursor: pointer;
+    line-height: 26px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(3,49,108,1);
+}
+#Ebene_2_ry {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 1714.557px;
+    top: 9.018px;
+    overflow: visible;
+}
+#Ebene_1_rz {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_117_r {
+    position: absolute;
+    width: 19.443px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_141_r {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_141_r {
+    overflow: visible;
+    position: absolute;
+    width: 21.443px;
+    height: 12.677px;
+    left: 0px;
+    top: 13.478px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_142_r {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_142_r {
+    overflow: visible;
+    position: absolute;
+    width: 12.933px;
+    height: 12.931px;
+    left: 4.257px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ebene_2_r {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 1574.819px;
+    top: 9.018px;
+    overflow: visible;
+}
+#Ebene_1_r {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_118_r {
+    position: absolute;
+    width: 25.181px;
+    height: 25.155px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_143_r {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 1.7857099771499634px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_143_r {
+    overflow: visible;
+    position: absolute;
+    width: 11.411px;
+    height: 11.411px;
+    left: 15.925px;
+    top: 15.899px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_144_r {
+    fill: transparent;
+    stroke: rgba(3,49,108,1);
+    stroke-width: 1.7857099771499634px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Pfad_144_r {
+    overflow: visible;
+    position: absolute;
+    width: 22.263px;
+    height: 22.263px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ebene_2_sa {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 319px;
+    top: 44.088px;
+    overflow: visible;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Home.html;
+    cursor: pointer;
+}
+#Ebene_1_sa {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Gruppe_113_sa {
+    position: absolute;
+    width: 310.421px;
+    height: 57.66px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Pfad_113_sb {
+    fill: rgba(0,0,0,1);
+}
+.Pfad_113_sb {
+    overflow: visible;
+    position: absolute;
+    width: 83.208px;
+    height: 19.759px;
+    left: 118.371px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gruppe_112_sc {
+    position: absolute;
+    width: 310.421px;
+    height: 33.37px;
+    left: 0px;
+    top: 24.29px;
+    overflow: visible;
+}
+#Pfad_114_sd {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_114_sd {
+    overflow: visible;
+    position: absolute;
+    width: 29.117px;
+    height: 29.725px;
+    left: 0px;
+    top: 3.645px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_115_se {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_115_se {
+    overflow: visible;
+    position: absolute;
+    width: 14.711px;
+    height: 32.719px;
+    left: 31.241px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_116_sf {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_116_sf {
+    overflow: visible;
+    position: absolute;
+    width: 21.784px;
+    height: 22.391px;
+    left: 48.988px;
+    top: 10.328px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_117_sg {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_117_sg {
+    overflow: visible;
+    position: absolute;
+    width: 29.595px;
+    height: 29.725px;
+    left: 73.722px;
+    top: 3.645px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_118_sh {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_118_sh {
+    overflow: visible;
+    position: absolute;
+    width: 20.656px;
+    height: 23.259px;
+    left: 106.048px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_119_si {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_119_si {
+    overflow: visible;
+    position: absolute;
+    width: 25.733px;
+    height: 23.259px;
+    left: 137.029px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_120_sj {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_120_sj {
+    overflow: visible;
+    position: absolute;
+    width: 19.571px;
+    height: 29.725px;
+    left: 165.103px;
+    top: 2.994px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_121_sk {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_121_sk {
+    overflow: visible;
+    position: absolute;
+    width: 17.487px;
+    height: 29.682px;
+    left: 193.524px;
+    top: 3.688px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_122_sl {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_122_sl {
+    overflow: visible;
+    position: absolute;
+    width: 21.784px;
+    height: 22.391px;
+    left: 213.484px;
+    top: 10.328px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_123_sm {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_123_sm {
+    overflow: visible;
+    position: absolute;
+    width: 28.986px;
+    height: 22.652px;
+    left: 238.216px;
+    top: 10.718px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_124_sn {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_124_sn {
+    overflow: visible;
+    position: absolute;
+    width: 20.654px;
+    height: 23.259px;
+    left: 269.936px;
+    top: 10.111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Pfad_125_so {
+    fill: rgba(136,200,220,1);
+}
+.Pfad_125_so {
+    overflow: visible;
+    position: absolute;
+    width: 17.487px;
+    height: 29.682px;
+    left: 292.935px;
+    top: 3.688px;
+    transform: matrix(1,0,0,1,0,0);
+}
