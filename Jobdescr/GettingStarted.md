@@ -12,7 +12,7 @@ Dieses File soll euch durch die einzelnen Schritte begleiten.
 - [ ] CSS und JS von file trennen und verlinken 
    - CSS und JS unverändert lassen!!
 - [ ] Auf die Pfade achten und Bilder neu verlinken (Pfad relativ)
-   - Da fehlt dann immer ein `img/` am Anfang der `src` und `srcset`
+   - Da fehlt dann immer ein `img/` in der `src` und `srcset`
 - [ ] Falls auf der Seite Dropdowns oder andere Platzhalter, die Daten enthalten sollen,
 vorhanden sind, dann aufschreiben welche Daten wir da brauchen(für Kopp)
 - [ ] Alles protokollieren und Probleme aufschreiben.
