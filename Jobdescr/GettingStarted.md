@@ -1,4 +1,3 @@
-
 # Getting Started
 Dieses File soll euch durch die einzelnen Schritte begleiten.
 ## Zugeordnete Seiten
@@ -26,4 +25,4 @@ vorhanden sind, dann aufschreiben welche Daten wir da brauchen(für Kopp)
 
 
 
-> GOOD LUCK :+1:
+> GOOD LUCK :+1: <h6>`random-dash`</h6>
