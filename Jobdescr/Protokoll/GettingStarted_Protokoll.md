@@ -19,6 +19,7 @@ Kontoübersicht
  - Produktdetails
 	- Welche Produkte sollen dargestellt werden mit den zugehörigen Produkt-Details?
 	- Was hat es mit den Vogeln bzw. mit dem Herz auf sich?
+	- Stand?
 
 
 Konto Detail
