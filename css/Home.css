@@ -28,6 +28,7 @@
 #Teaser {
     display: none;
 }
+
 @media (min-width: 0px) {
     .mediaViewInfo {
         --web-view-name: Home;
@@ -3614,6 +3615,7 @@
         top: 631px;
         overflow: visible;
     }
+    /*
     #Dropdown {
         position: absolute;
         width: 506px;
@@ -3689,6 +3691,7 @@
         top: 408px;
         overflow: visible;
     }
+    
     #Gruppe_312_h {
         position: absolute;
         width: 506px;
@@ -3730,6 +3733,8 @@
         font-size: 18px;
         color: rgba(112,112,112,1);
     }
+    
+    
     #Pfad_900_h {
         fill: transparent;
         stroke: rgba(3,49,108,1);
@@ -3748,6 +3753,45 @@
         top: 13.5px;
         transform: matrix(1,0,0,1,0,0);
     }
+    */
+    
+
+
+    
+    /*Dropdowns*/
+    .dropdown {
+        position: absolute;
+        width: 506px;
+        height: 40px;
+        left: 656px;
+        top: 408px;
+        overflow: visible;
+    }
+
+    .dropdown1 {
+        position: absolute;
+        width: 506px;
+        height: 40px;
+        left: 656px;
+        top: 468px;
+        overflow: visible;
+    }
+
+    .s1 {
+        position: absolute;
+        padding-left: 14px;
+        text-align: left;
+        width: 100%;
+        height: 40px;
+        font-family: HK Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: rgba(112, 112, 112, 1);
+    }
+    /*Dropdowns*/
+
+    
     #Gruppe_322 {
         position: absolute;
         width: 953.95px;
