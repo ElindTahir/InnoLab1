@@ -523,7 +523,7 @@ session_start();
     </div>
   </div>
   <div id="Gruppe_231">
-    <img id="iStock-815839616" src=img/"iStock-815839616.png" srcset="img/iStock-815839616.png 1x, img/iStock-815839616@2x.png 2x">
+    <img id="iStock-815839616" src="img/iStock-815839616.png" srcset="img/iStock-815839616.png 1x, img/iStock-815839616@2x.png 2x">
 
     <div onclick="application.goToTargetView(event)" id="Button_ey" class="Button">
       <svg class="Rechteck_7_ez">
