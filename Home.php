@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +11,9 @@
   <title>Home</title>
   <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/Home.css"/>
   <script id="applicationScript" type="text/javascript" src="js/Home.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
 <div id="Home">
   <div id="Gruppe_324">
@@ -1279,20 +1285,17 @@
         </rect>
       </svg>
       <div onclick="application.goToTargetView(event)" id="Login">
-        <span>Login</span>
+      <?php                                                                                                                                               //Falls die folgenden Bedingungen in den if statements erfüllt werden sollen die Seiten ausgegeben werden
+          if (isset($_SESSION["useruid"])) {
+            echo "<a class='btn btn-warning h5' href='includes/logoutForm.php'>Log out</a>";
+          } else {
+            echo "<a class='align-top btn btn-primary h5' href='Anmeldung.php'>Login</a>";
+          }
+      ?>
       </div>
       <div id="Ebene_2_lo">
         <div id="Ebene_1_lp">
-          <div id="Gruppe_117">
-            <svg class="Pfad_141" viewBox="1 16.188 19.443 11.677">
-              <path id="Pfad_141" d="M 1.022531509399414 27.68052291870117 L 1 23.68147659301758 C 1 18.53915405273438 3.226843357086182 16.45391654968262 7.429301261901855 16.1880989074707 L 10.72245693206787 18.96985244750977 L 14.01479721069336 16.1880989074707 C 18.2187385559082 16.45391464233398 20.44343376159668 18.53915405273438 20.44343376159668 23.68147659301758 L 20.44343376159668 27.86504173278809">
-              </path>
-            </svg>
-            <svg class="Pfad_142" viewBox="5.797 1 10.932 10.931">
-              <path id="Pfad_142" d="M 16.72936820983887 6.466230869293213 C 16.72936820983887 3.447668313980103 14.28028869628906 1 11.26247119903564 1 C 8.244653701782227 1 5.796949863433838 3.447668313980103 5.796949863433838 6.466230869293213 C 5.796949863433838 9.484792709350586 8.244617462158203 11.93104267120361 11.26250648498535 11.93104267120361 C 14.28039455413818 11.93104267120361 16.72940444946289 9.484793663024902 16.72940444946289 6.466231346130371 Z">
-              </path>
-            </svg>
-          </div>
+          
         </div>
       </div>
       <div id="Ebene_2_lt">
