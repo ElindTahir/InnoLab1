@@ -1,9 +1,18 @@
-#center{
+#center {
     background-color: rgba(136,200,220,1);
+    max-width: 336px;
     color: darkblue;
     margin-top: 300px;
     margin-left: 1080px;
     margin-right: 220px;
     padding: 50px;
     border-radius: 20px;
+    min-width: 336px;
+    text-align: center;
 }
+
+
+input {
+    min-width: 140px;
+}
+

@@ -24,15 +24,17 @@ session_start();
         <h1 class="container">Login</h1>
         <br>
         <form action="includes\loginForm.php" method="post" class="panel-body">
-            <div class="form-group col-md-6 text-white">
+            <div class="form-group text-white">
                 <input type="text" class="form-control" name="username" placeholder="Benutzername">
             </div>
 
-            <div class="form-group col-md-6 text-white">
+            <div class="form-group text-white">
                 <input type="password" class="form-control" name="password" placeholder="Passwort">
             </div>
-            <br>
-            <button type="submit" name="submit" class="btn btn-primary float-md-right">Anmelden</button>
+            
+            <div class="form-group text-center mt-5">
+                <button type="submit" name="submit" class="btn btn-primary ">Anmelden</button>
+            </div>
         </form>
         <br>
     </div>
