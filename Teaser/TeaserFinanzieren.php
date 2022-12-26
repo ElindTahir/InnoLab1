@@ -11,8 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Teaser</title>
-    <link rel="stylesheet" href="css/Teaser.css" id="applicationStylesheet">
-    <script src="js/Teaser.js" id="applicationScript"></script>
+    <link rel="stylesheet" href="../css/Teaser.css" id="applicationStylesheet">
+    <script src="../js/Teaser.js" id="applicationScript"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
@@ -30,7 +30,7 @@ session_start();
 			</rect>
 		</svg>
 		<div id="Gruppe_166_bgx">
-			<img id="Gruppe_165_bgy" src="img/img/Gruppe_165_bgy.png" srcset="img/Gruppe_165_bgy.png 1x, img/Gruppe_165_bgy@2x.png 2x">
+			<img id="Gruppe_165_bgy" src="img/img/Gruppe_165_bgy.png" srcset="../img/Gruppe_165_bgy.png 1x, img/Gruppe_165_bgy@2x.png 2x">
 				
 			</svg>
 		</div>
@@ -55,11 +55,11 @@ session_start();
 			</div>
 		</div>
 		<div id="Gruppe_157_bg">
-			<img id="Gruppe_156_bg" src="img/Gruppe_156_bg.png" srcset="img/Gruppe_156_bg.png 1x, img/Gruppe_156_bg@2x.png 2x">
+			<img id="Gruppe_156_bg" src="../img/Gruppe_156_bg.png" srcset="../img/Gruppe_156_bg.png 1x, img/Gruppe_156_bg@2x.png 2x">
 				
 			</svg>
 		</div>
-		<img id="Gruppe_159_bg" src="img/Gruppe_159_bg.png" srcset="img/Gruppe_159_bg.png 1x, img/Gruppe_159_bg@2x.png 2x">
+		<img id="Gruppe_159_bg" src="../img/Gruppe_159_bg.png" srcset="../img/Gruppe_159_bg.png 1x, img/Gruppe_159_bg@2x.png 2x">
 			
 		</svg>
 	</div>
@@ -87,7 +87,7 @@ session_start();
 		</div>
 		<div id="Gruppe_209_bhh">
 			<div id="Gruppe_166_bhi">
-				<img id="Gruppe_165_bhj" src="img/Gruppe_165_bhj.png" srcset="img/Gruppe_165_bhj.png 1x, img/Gruppe_165_bhj@2x.png 2x">
+				<img id="Gruppe_165_bhj" src="../img/Gruppe_165_bhj.png" srcset="../img/Gruppe_165_bhj.png 1x, img/Gruppe_165_bhj@2x.png 2x">
 					
 				</svg>
 			</div>
@@ -112,7 +112,7 @@ session_start();
 				</div>
 			</div>
 			<div id="Gruppe_157_bhr">
-				<img id="Gruppe_156_bhs" src="img/Gruppe_156_bhs.png" srcset="img/Gruppe_156_bhs.png 1x, img/Gruppe_156_bhs@2x.png 2x">
+				<img id="Gruppe_156_bhs" src="../img/Gruppe_156_bhs.png" srcset="../img/Gruppe_156_bhs.png 1x, img/Gruppe_156_bhs@2x.png 2x">
 					
 				</svg>
 			</div>
@@ -208,38 +208,38 @@ session_start();
 				</path>
 			</svg>
 			<div onclick="application.goToTargetView(event)" id="Home_bik">
-				<span>Home</span>
+                <a class="h5 text-dark" href="../Home.php">Home</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Konto_bil">
-				<span>Konto</span>
+                <a class="h5 text-dark" href="../Konto__bersicht.php">Konto</a>
 			</div>
 			<div id="Finanzieren_bim">
-				<span>Finanzieren</span>
+                <a class="h5 text-dark" href="TeaserFinanzieren.php"><b>Finanzieren</b></a>
 			</div>
 			<div id="ber_Uns_bin">
-				<span>Über Uns</span>
+                <a class="h5 text-dark" href="TeaserÜberUns.php">Über uns</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Wissen__News_bio">
-				<span>Wissen & News</span>
+                <a class="h5 text-dark" href="../News.php">Wissen & News</a>
 			</div>
 			<div id="Methodik_bip">
-				<span>Methodik</span>
+                <a class="h5 text-dark" href="TeaserMethodik.php">Methodik</a>
 			</div>
 			<div id="DE__EN_biq">
 				<span>DE </span><span style="color:rgba(112,112,112,1);">| EN</span>
 			</div>
 			<div id="Partner_Werden_bir">
-				<span>Partner Werden</span>
+                <a class="h5 text-dark" href="TeaserPartnerWerden.php">Partner werden</a>
 			</div>
 			<div id="FAQ_bis">
-				<span>FAQ</span>
+                <a class="h5 text-dark" href="TeaserFAQ.php">FAQ</a>
 			</div>
 			<div id="Login_bit">
 			<?php                                                                                                                                               //Falls die folgenden Bedingungen in den if statements erfüllt werden sollen die Seiten ausgegeben werden
 				if (isset($_SESSION["useruid"])) {
-					echo "<a class='btn btn-warning h5' href='includes/logoutForm.php'>Log out</a>";
+					echo "<a class='btn btn-warning h5' href='../includes/logoutForm.php'>Log out</a>";
 				} else {
-					echo "<a class='btn btn-primary h5' href='Anmeldung.php'>Login</a></li>";
+					echo "<a class='btn btn-primary h5' href='../Anmeldung.php'>Login</a></li>";
 				}
           	?>
 			</div>

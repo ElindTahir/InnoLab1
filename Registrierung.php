@@ -33,9 +33,9 @@ session_start();
             <div class="form-group">
                 <label for="gender"><b>Anrede:</b>
                     <div>
-                        <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male" /><b>Herr</b></label><br>
-                        <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female" required /><b>Frau</b></label><br>
-                        <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others" required /><b>Divers</b></label><br>
+                        <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male" /><b> Herr</b></label><br>
+                        <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female" required /><b> Frau</b></label><br>
+                        <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others" required /><b> Divers</b></label><br>
                     </div>
                 </label>
             </div>
@@ -79,31 +79,31 @@ session_start();
         </path>
     </svg>
     <div id="Home_ld">
-        <span>Home</span>
+        <a class="h5 text-dark" href="Home.php">Home</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="Konto">
-        <span>Konto</span>
+        <a class="h5 text-dark" href="Konto__bersicht.php">Konto</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="Finanzieren">
-        <span>Finanzieren</span>
+        <a class="h5 text-dark" href="Teaser/TeaserFinanzieren.php">Finanzieren</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="ber_Uns">
-        <span>Über Uns</span>
+        <a class="h5 text-dark" href="Teaser/TeaserÜberUns.php">Über uns</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="Wissen__News">
-        <span>Wissen & News</span>
+        <a class="h5 text-dark" href="News.php">Wissen & News</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="Methodik">
-        <span>Methodik</span>
+        <a class="h5 text-dark" href="Teaser/TeaserMethodik.php">Methodik</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="DE__EN">
         <span>DE </span><span style="color:rgba(112,112,112,1);">| EN</span>
     </div>
     <div onclick="application.goToTargetView(event)" id="Partner_Werden">
-        <span>Partner Werden</span>
+        <a class="h5 text-dark" href="Teaser/TeaserPartnerWerden.php">Partner werden</a>
     </div>
     <div onclick="application.goToTargetView(event)" id="FAQ">
-        <span>FAQ</span>
+        <a class="h5 text-dark" href="Teaser/TeaserFAQ.php">FAQ</a>
     </div>
     <svg class="Rechteck_5">
         <rect id="Rechteck_5" rx="0" ry="0" x="0" y="0" width="56" height="3">

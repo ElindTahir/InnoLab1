@@ -4787,36 +4787,33 @@ window.application = new Application();
 				</path>
 			</svg>
 			<div onclick="application.goToTargetView(event)" id="Home_u">
-				<span>Home</span>
+                <a class="h5 text-dark" href="Home.php">Home</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Konto_u">
-				<span>Konto</span>
+                <a class="h5 text-dark" href="Konto__bersicht.php">Konto</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Finanzieren_u">
-				<span>Finanzieren</span>
+                <a class="h5 text-dark" href="Teaser/TeaserFinanzieren.php">Finanzieren</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="ber_Uns_u">
-				<span>Über Uns</span>
+                <a class="h5 text-dark" href="Teaser/TeaserÜberUns.php">Über uns</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Wissen__News_u">
-				<span>Wissen & News</span>
+                <a class="h5 text-dark" href="News.php"><b>Wissen & News</b></a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Methodik_u">
-				<span>Methodik</span>
+                <a class="h5 text-dark" href="Teaser/TeaserMethodik.php">Methodik</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="DE__EN_u">
 				<span>DE </span><span style="color:rgba(112,112,112,1);">| EN</span>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Partner_Werden_u">
-				<span>Partner Werden</span>
+                <a class="h5 text-dark" href="Teaser/TeaserPartnerWerden.php">Partner werden</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="FAQ_va">
-				<span>FAQ</span>
+                <a class="h5 text-dark" href="Teaser/TeaserFAQ.php">FAQ</a>
 			</div>
-			<svg class="Rechteck_5_vb">
-				<rect id="Rechteck_5_vb" rx="0" ry="0" x="0" y="0" width="149" height="3">
-				</rect>
-			</svg>
+
 			<div onclick="application.goToTargetView(event)" id="Login_vc">
 			<?php                                                                                                                                               //Falls die folgenden Bedingungen in den if statements erfüllt werden sollen die Seiten ausgegeben werden
 				if (isset($_SESSION["useruid"])) {
