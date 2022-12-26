@@ -2,6 +2,18 @@
 session_start();
 ?>
 
+<style>
+    #center{
+        background-color: #4682B43f;
+        color: darkblue;
+        margin-top: 300px;
+        margin-left: 1080px;
+        margin-right: 220px;
+        padding: 50px;
+        border-radius: 20px;
+    }
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 
