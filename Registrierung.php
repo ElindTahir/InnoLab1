@@ -105,10 +105,6 @@ session_start();
     <div onclick="application.goToTargetView(event)" id="FAQ">
         <a class="h5 text-dark" href="Teaser/TeaserFAQ.php">FAQ</a>
     </div>
-    <svg class="Rechteck_5">
-        <rect id="Rechteck_5" rx="0" ry="0" x="0" y="0" width="56" height="3">
-        </rect>
-    </svg>
     <div onclick="application.goToTargetView(event)" id="Login">
     <?php                                                                                                                                               //Falls die folgenden Bedingungen in den if statements erfüllt werden sollen die Seiten ausgegeben werden
           if (isset($_SESSION["useruid"])) {
