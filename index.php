@@ -1251,7 +1251,7 @@ session_start();
         </path>
       </svg>
       <div id="Home_ld">
-          <a class="h5 text-dark" href="Home.php"><b>Home</b></a>
+          <a class="h5 text-dark" href="index.php"><b>Home</b></a>
       </div>
       <div onclick="application.goToTargetView(event)" id="Konto">
           <a class="h5 text-dark" href="Konto__bersicht.php">Konto</a>

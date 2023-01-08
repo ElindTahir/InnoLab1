@@ -46,7 +46,7 @@ session_start();
         </div>
 
         <div class="container">
-            <h4><a href="../Home.php">Zurück zur Startseite</a></h4>
+            <h4><a href="../index.php">Zurück zur Startseite</a></h4>
         </div>
 
         <br>

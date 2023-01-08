@@ -122,7 +122,7 @@ function LoginUser($connection, $Benutzername, $Passwort)                       
         $_SESSION["firstName"] = $UsernameExists["Vorname"];                                                                                                    //Vorname wird in der Session gespeichert
         $_SESSION["lastName"] = $UsernameExists["Nachname"];                                                                                                    //Nachname wird in der Session gespeichert
         $_SESSION["email"] = $UsernameExists["Email"];                                                                                                          //Email wird in der Session gespeichert                                                                                                          //Rolle wird in der Session gespeichert
-        header("location: ../Home.php");
+        header("location: ../index.php");
         exit();
     }
 }

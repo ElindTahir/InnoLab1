@@ -4787,7 +4787,7 @@ window.application = new Application();
 				</path>
 			</svg>
 			<div onclick="application.goToTargetView(event)" id="Home_u">
-                <a class="h5 text-dark" href="Home.php">Home</a>
+                <a class="h5 text-dark" href="index.php">Home</a>
 			</div>
 			<div onclick="application.goToTargetView(event)" id="Konto_u">
                 <a class="h5 text-dark" href="Konto__bersicht.php">Konto</a>

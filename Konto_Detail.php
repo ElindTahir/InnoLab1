@@ -800,7 +800,7 @@ session_start();
                     </path>
                 </svg>
                 <div onclick="application.goToTargetView(event)" id="Home_bfp">
-                    <a class="h5 text-dark" href="Home.php">Home</a>
+                    <a class="h5 text-dark" href="index.php">Home</a>
                 </div>
                 <div onclick="application.goToTargetView(event)" id="Konto_bfq">
                     <a class="h5 text-dark" href="Konto__bersicht.php"><b>Konto</b></a>
